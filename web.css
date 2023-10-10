@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Poppins:wght@400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+}
+h1, h2{
+  text-align: center;
+}
+table, td, th, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+}
+.table{
+  margin: 0 auto;
+}
+ul, ol{
+  margin-left: 40px;
+}
+dt{
+  margin-left: 25px;
+}
+dd{
+  margin-left: 45px;
+}
+body{
+  background: url(https://miro.medium.com/v2/resize:fit:1400/1*nyU2IcNL3TVxZ_GPkkmt2g.png);
+  background-size: cover;
+}
+.font{
+  color:cadetblue;
+}
+.hovs:hover{
+  color: red;
+}

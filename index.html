@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Lab Work II</title>
+  </head>
+  <style>
+    #id{
+      color:darkcyan;
+    }
+    .warning{
+      text-align: center;
+    }
+    h2 + p{
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <section>
+      <div class="boxx">
+        <div class="value">
+          <form action="login.html">
+            <h2 id = "id">Registration page</h2>
+            <p class = "warning">Fill out all the forms</p>
+            <br />
+            <div class="inputbox">
+              <input type="email" required />
+              <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+              <input type="password" required />
+              <label for="">Password</label>
+            </div>
+            <div class="inputbox">
+              <input type="text" />
+              <label for="">Tell about yourself</label>
+            </div>
+            <div>
+              <label>Gender:</label>
+              <br>
+              <input type="radio" id="male" name="gen" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gen" value="female" />
+              <label for="female">Female</label>
+            </div>
+            <br />
+            <div>
+              <label>Your anime preferences:</label>
+              <br />
+              <input type="checkbox" id="male" name="gen" value="male" />
+              <label for="male">Action</label>
+              <br />
+              <input type="checkbox" id="female" name="gen" value="female" />
+              <label for="female">Thriller</label>
+            </div>
+            <div class="dob">
+              <input type="date" required />
+              <label for="">Date of Birth</label>
+            </div>
+            <div class="inputbox">
+              <input type="tel" required />
+              <label for="" style = "color:gold">Your phone number:</label>
+            </div>
+            <input type="submit" value="Register" class="reggs" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

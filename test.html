@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="test.css" rel="stylesheet" type="text/css">
+    <title>Lab Work III</title>
+</head>
+<body>
+    <header>
+        <h1>Main content</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Anime genres list (choose to see the genre you want)</h2>
+            <ul class = "genrelist">
+                <li onclick="showMovies('Action')">Action</li>
+                <li onclick="showMovies('Slice-of-Life')">Slice of Life</li>
+                <li onclick="showMovies('Comedy')">Comedy</li>
+                <li onclick="showMovies('Isekai')">Isekai</li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2>Anime Movies According to Your Chosen Genre</h2>
+                <div class = "movie" data-genre = "Action">
+                    <p style = "font-size: 23px;">Action</p>
+                    <div class = "films">
+                        <img src = "images/action1.jpeg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Attack on Titan</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action2.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Fairy Gone</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action3.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Fullmetal Alchemist: Brotherhood</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">One Punch Man</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action5.jfif" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">My Hero Academia</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action6.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Demon Slayer</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action7.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Neon Genesis Evangelion</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action8.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Sword Art Online</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action9.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Rakshasa Street</p>
+                    </div>
+                </div>
+                <div class = "movie" data-genre = "Slice-of-Life">
+                    <p style = "font-size: 23px;">Slice of Life</p>
+                    <div class = "films">
+                        <img src = "images/slice1.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Horimiya</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice2.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Toradora!</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice3.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Kaguya-Sama: Love Is War</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Grand Blue</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice5.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Komi Can't Communicate</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice6.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">My Dress-Up Darling</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice7.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Miss Kobayashi's Dragon Maid</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice8.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Daily Lives Of Highschool Boys</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice9.png" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Barakamon</p>
+                    </div>
+                </div>
+                <div class = "movie" data-genre = "Comedy">
+                    <p style = "font-size: 23px;">Comedy</p>
+                    <div class = "films">
+                        <img src = "images/com1.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Spy x Family</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/action4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">One Punch Man</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice8.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Daily Lives Of Highschool Boys</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/slice4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Grand Blue</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/com2.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">The Devil Is A Part-Timer!</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/com3.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">KonoSuba</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/com4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Gintama</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/com5.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">The Disastrous Life of Saiki K.</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/com6.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Haven’t You Heard? I’m Sakamoto</p>
+                    </div>
+                </div>
+                <div class = "movie" data-genre = "Isekai">
+                    <p style = "font-size: 23px;">Isekai</p>
+                    <div class = "films">
+                        <img src = "images/com3.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">KonoSuba</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is1.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Sheild Hero</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is2.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Mushoku Tensei</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is4.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Overlord</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is3.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Re:Zero</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is5.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">The Eminence In Shadow</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is6.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Campfire Cooking In Another World</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is7.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">Spirited Away</p>
+                    </div>
+                    <div class = "films">
+                        <img src = "images/is8.jpg" width="312" height="175" class = "imgcustoms">
+                        <p class = "name">The Twelve Kingdoms</p>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <p class = "return"><a href = "website.html">Return back to the previous page.</a></p>
+    <footer>
+        &copy; 2023 Anime Content. All Rights Reserved.
+    </footer>
+    <script>
+      function showMovies(genre) {
+          const movies = document.querySelectorAll('.movie');
+          movies.forEach((movie) => {
+              const movieGenre = movie.getAttribute('data-genre');
+              if (movieGenre === genre) {
+                  movie.style.display = 'block';
+              } else {
+                  movie.style.display = 'none';
+              }
+          });
+      }
+  </script>
+</body>
+</html>
